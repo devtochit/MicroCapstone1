@@ -1,17 +1,17 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Project Name
+# Microver Capstone 1 
 
 > Description the project.
 
 
 ## Built With
 
-- Major languages
-- Frameworks
-- Technologies used
+- HTML,CSS
+- JAVASCRIPT
+- GIT
 
-## Live Demo (if available)
+## Live Demo 
 
 [Live Demo Link](https://livedemo.com)
 
