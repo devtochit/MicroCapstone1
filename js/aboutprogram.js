@@ -7,32 +7,38 @@ const speakersData = [
         id: '1',
         name: 'Opening',
         description: 'the event will open with mr gary as our speaker',
-        featured_image2: '../images/program_icon_01.png',
+        featured_image2: '../images/Burn.jpg',
     },
 
     {
         id: '2',
         name: 'playtime',
         description: 'A play by the famous gladiators ',
-        featured_image2: '../images/program_icon_02.png',
+        featured_image2: '../images/coldplay.jpg',
     },
     {
         id: '3',
         name: 'songs',
         description: 'songs by guests ',
-        featured_image2: '../images/program_icon_03.png',
+        featured_image2: '../images/fun.jpg',
     },
     {
         id: '4',
         name: 'jokes',
         description: 'some time of jokes with kevin hart',
-        featured_image2: '../images/program_icon_04.png',
+        featured_image2: '../images/kelvin.jpg',
     },
     {
         id: '5',
         name: 'songs ',
         description: 'songs by cold play ',
-        featured_image2: '../images/program_icon_05.png',
+        featured_image2: '../images/play.jpg',
+    },
+    {
+        id: '6',
+        name: 'songs ',
+        description: 'songs by cold play ',
+        featured_image2: '../images/wizkid.jpg',
     },
 ]
 
