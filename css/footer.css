@@ -1,0 +1,12 @@
+footer{
+    background-color: rgb(46, 46, 46);
+    width: 128%;
+    height: 200px;
+}
+
+@media (min-width:  768px){
+
+ footer{
+     width: 100%;
+ }   
+}

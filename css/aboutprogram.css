@@ -9,36 +9,33 @@
     min-height: 110vh;
     flex-direction: column;
     padding: 12px;
+    width: 128%;
     gap: 12px;
-    
-
 }
 .section2 h1 {
     position: relative;
     text-align: center;
     font-size:2.5em ;
-    bottom: 550px;
- 
-
+    bottom: 567px;
 }
 .guide-bar{
   position: relative;
   width: 150px;
   height: 16px;
   border-bottom: 1px solid #ef513c;
-  bottom:580px;
-  left:200px
+  bottom:593px;
+  left:296px
 }
 .about-card{
   position: relative;
-  top: 120px;
+  top: 100px;
  display: flex;
  flex-direction: row;
-    width:100%;
+    width:97%;
     height: 100px;
     background: rgba(255, 255, 255, 0.1); 
     gap: 90px;
-
+    padding: 10px;
 }
 
 .img-row{
@@ -60,4 +57,50 @@ align-items: center;
   font-size:15px;
 place-items: center;
 align-items: center; 
+}
+
+
+@media (min-width:  768px){
+
+  .section2{
+    display: flex;
+    justify-content: center;
+     border-top:3px solid rgb(246 91 28);
+     border-image: url(/images/images.jpg) 30 round;
+     background-image: url(/images/pattern_bg.png);
+      background-repeat: repeat;
+      background-color: rgb(39, 42, 50);
+      min-height: 80vh;
+      flex-direction:row;
+      padding: 12px;
+      width: 100%;
+      gap: 12px;
+  }
+  .section2 h1 {
+    position: relative;
+    text-align: center;
+    font-size:2.2em ;
+    bottom: 0px;
+    right: 700px;
+    top: 30px;
+    color: aliceblue;
+    
+}
+  .about-card{
+    position: relative;
+    top: 220px;
+   display: flex;
+   flex-direction:column;
+      width:200%;
+      height: 221px;
+      background: rgba(255, 255, 255, 0.1); 
+      gap: 21px;
+      padding: 10px;
+      left: 100px;
+  }
+  .guide-bar{
+    
+  }
+  
+
 }
