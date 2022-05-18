@@ -1,0 +1,211 @@
+
+.showcase
+{
+  
+  min-height: 70vh;
+  padding: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  transition: 0.5s;
+  z-index: 2;
+}
+.showcase.active
+{
+  right: 300px;
+}
+
+.showcase video
+{
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: 51%;
+  object-fit: cover;
+  opacity: 0.1;
+}
+.overlay
+{
+  position: absolute;
+  top: 75px;
+  left: 0;
+  width: 100%;
+  height: 64%;
+  background:#f1f1f2;
+  mix-blend-mode: overlay;
+}
+.text
+{
+  position: relative;
+  z-index: 10;
+ right:0px;
+  top: 90px;
+
+}
+
+.text h2
+{
+  color:  rgb(246 91 28);
+  font-size: 1em;
+  font-weight: 800;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text h3
+{
+  font-size: 3em;
+  font-weight: 700;
+  background:url(../images/images.jpg);
+  -webkit-background-clip:text;
+  color:transparent;
+  line-height: 1em;
+  text-transform: uppercase;
+}
+.text p
+{
+    text-align: justify;
+    height: 90px;
+    width:  480px;
+    border: 4px solid #fff;
+    background-color: #F7F7FE;
+    margin: 15px 0 40px;
+    padding: 9px 20px 0;
+    font-size: 1.125em;
+
+}
+.text span {
+  text-align: center;
+  margin-bottom: 4px;
+  letter-spacing: 0;
+  font: 700 36px Verdana;
+  color: #575757;
+  letter-spacing: -2px;
+
+  
+  } 
+  .demo{
+  letter-spacing: 5px;
+  line-height: 30px;
+  font-size: large;
+  font-family: 'Poppins',sans-serif;
+  font-weight: 300px;
+  }
+.text a
+{
+  display: inline-block;
+  font-size: 1em;
+  background: #fff;
+  padding: 10px 30px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 500;
+  margin-top: 10px;
+  color: #111;
+  letter-spacing: 2px;
+  transition: 0.2s;
+}
+.text a:hover
+{
+  letter-spacing: 6px;
+}
+@media (min-width:  768px){
+
+  
+    .showcase
+    {
+    
+    
+      min-height: 100vh;
+      padding: 100px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      transition: 0.5s;
+      z-index: 2;
+    }
+    .showcase.active
+    {
+      right: 300px;
+    }
+    
+    .showcase video
+    {
+      position: absolute;
+      top: 122px;
+      left: 0;
+      width: 100%;
+      height: 59%;
+      object-fit: cover;
+      opacity: 0.1;
+    }
+    .overlay
+    {
+      position: absolute;
+      top: 122px;
+      left: 0;
+      width: 100%;
+      height: 70%;
+      background: #dfeff7;
+      mix-blend-mode: overlay;
+    }
+
+    .text
+    {
+      position: relative;
+      z-index: 10;
+      top: 80px;
+      right: 0px;
+    
+    }
+    
+    .text h2
+    {
+      color:  rgb(246 91 28);
+      font-size: 3em;
+      font-weight: 800;
+      line-height: 1em;
+      text-transform: uppercase;
+    }
+    .text h3
+    {
+      font-size: 7em;
+      font-weight: 700;
+      background:url(../images/images.jpg);
+      -webkit-background-clip:text;
+      color:transparent;
+      line-height: 1em;
+      text-transform: uppercase;
+    }
+    .text p
+    {
+        text-align: justify;
+        height: 90px;
+        width:  972px;
+        border: 5px solid #fff;
+        background-color: #f7f7fed2;
+        margin: 15px 0 40px;
+        padding: 9px 20px 0;
+        font-size: 1.125em;
+        margin: 17px 0.75em 0;
+        width: calc(100% - 2.5em);
+        padding: 1em 0.5em;
+        line-height: 150%;
+        font-size: 13px;
+        height: auto;
+        text-align: justify;
+        word-break: break-all;
+    }
+    .text span {
+    text-align: center;
+    margin-bottom: 4px;
+    letter-spacing: 0;
+    font: 700 36px Verdana;
+    color: #575757;
+    letter-spacing: -2px;
+
+    
+    }
+
+}
