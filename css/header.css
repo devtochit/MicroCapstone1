@@ -75,11 +75,11 @@
   left: 0;
   bottom: 0;
   z-index: 101;
-  background: #fff;
-  width: 400px;
+  background: var(--primary-color);
+  width: 450px;
   height: 90vh;
   overflow: hidden;
-  color: rgb(20, 3, 3);
+  color: #fff;
 
   /* hide the menu above the screen by default */
   transform: translateX(-100%);
