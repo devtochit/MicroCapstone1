@@ -1,7 +1,7 @@
 
 .showcase
 {
-  
+
   min-height: 70vh;
   display: flex;
   justify-content: space-between;
@@ -12,7 +12,7 @@
 }
 .showcase.active
 {
-  right: 300px;
+  left: 300px;
 }
 
 .showcase video
