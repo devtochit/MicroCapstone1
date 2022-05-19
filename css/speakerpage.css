@@ -1,106 +1,104 @@
-.section3{
+.section3 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  position: relative;
+  top: 150px;
+}
+
+.sectionh1 {
+  position: relative;
+  bottom: 1250px;
+  color: #000;
+  left: 150px;
+  font-size: 2em;
+}
+
+.guided-bar {
+  position: relative;
+  width: 150px;
+  height: 16px;
+  border-bottom: 1px solid #ef513c;
+  bottom: 1293px;
+  left: 186px;
+}
+
+.speaker-card {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  gap: 9px;
+}
+
+.speaker-card p {
+  width: 50px;
+  height: 50px;
+}
+
+.speaker {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+.speaker img {
+  width: 100px;
+  height: 100px;
+}
+
+.speaker-header {
+  color: rgb(246 91 28);
+}
+
+@media (min-width: 768px) {
+  .section3 {
+    display: grid;
+    grid-template-columns: 700px 600px;
+    padding: 40px;
+    place-items: center;
+    position: relative;
+    top: 80px;
+    min-height: 98vh;
+    left: 150px;
+  }
+
+  .sectionh1 {
+    position: relative;
+    bottom: 750px;
+    color: #000;
+    left: 250px;
+    font-size: 2em;
+  }
+
+  .guided-bar {
+    display: none;
+  }
+
+  .speaker-card {
     display: flex;
     flex-direction: column;
-    gap: 40px;
-    padding: 40px;
-    position: relative;
-    top: 150px;
-}
-.sectionh1 {
-    position: relative;
-    bottom: 1250px;
-    color: #000;;
-    left: 150px;
-    font-size: 2em;
-}
-.guided-bar{
-    position: relative;
-    width: 150px;
-    height: 16px;
-    border-bottom: 1px solid #ef513c;
-    bottom:1293px;
-    left:186px
-}
-.speaker-card{
-    
-display: flex;
-flex-direction: column;
-padding: 20px; 
-gap: 9px; 
+    padding: 20px;
+    gap: 9px;
+  }
 
+  .speaker-card p {
+    width: 50px;
+    height: 50px;
+  }
 
-}
-.speaker-card p{
-    width:50px;
-    height:50px;
-   
-}
-
-.speaker{
+  .speaker {
     display: flex;
     flex-direction: row;
     gap: 20px;
-   
-}
-.speaker img {
-width: 100px;
-height: 100px;
+  }
 
-}
-.speaker-header{
-    color:  rgb(246 91 28);
-}
-
-
-@media (min-width:  768px){
-    
-    .section3{
-        display: grid;
-         grid-template-columns:700px 600px;
-        padding: 40px;
-        place-items: center;
-        position: relative;
-        top: 80px;
-        min-height: 98vh;
-        left: 150px;
-    }
-    .sectionh1 {
-        position: relative;
-        bottom: 750px;
-        color: #000;;
-        left: 250px;
-        font-size: 2em;
-    }
-    .guided-bar{
-        display: none;
-    }
-    .speaker-card{
-    display: flex;
-    flex-direction: column;
-    padding: 20px; 
-    gap: 9px; 
-    }
-
-    .speaker-card p{
-        width:50px;
-        height:50px;
-       
-    }
-    
-    .speaker{
-        display: flex;
-        flex-direction: row;
-        gap: 20px;
-       
-    }
-    .speaker img {
+  .speaker img {
     width: 100px;
     height: 100px;
-    
-    }
-    .speaker-header{
-        color:  rgb(246 91 28);
-    }
-    
+  }
 
+  .speaker-header {
+    color: rgb(246 91 28);
+  }
 }

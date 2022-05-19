@@ -6,10 +6,8 @@
 @import url('./footer.css');
 @import url('./partners.css');
 @import url('./scroll-header.css');
-@import url('./testing.css');
 
-
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
