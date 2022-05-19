@@ -1,12 +1,23 @@
-footer{
-    background-color: rgb(46, 46, 46);
-    width: 128%;
-    height: 200px;
-}
-
-@media (min-width:  768px){
-
- footer{
-     width: 100%;
- }   
-}
+.footer {
+    background-color: #2e2e2e;
+    color: var(--third-color);
+  }
+  
+  .footer .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  
+  .info-footer p {
+    font-size: 14px;
+  }
+  
+  @media only screen and (min-width: 992px) {
+    .logo {
+      margin-left: 15%;
+    }
+  }
+  
