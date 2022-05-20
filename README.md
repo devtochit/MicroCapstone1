@@ -1,6 +1,6 @@
-# OSESP
+# The Chance
 
-> The Osesp Itinerante tour annually runs through cities in the state of São Paulo, offering the population a series of free activities that include open-air symphony concerts, workshops with Osesp musicians, music appreciation courses and chamber and choir concerts.
+> The Chance concert  tour annually runs through cities in the state of califonia  offering the population a series of free activities that include open-air symphony concerts, workshops withmusicians, music appreciation courses and chamber and choir concerts.
 > This project was built using a Creative Commons conference as a base design. Two pages similar to the original were created. Pages have been adapted to suit desktop and mobile viewing. A menu for the mobile version was created and some of the content was created using Javascript.
 
 
@@ -8,14 +8,15 @@
 
 - HTML
 - CSS
+- BOOTSTRAP
 - Javascript
 
 
 ## Live Demo
 
-[Loom presentation video](https://www.loom.com/share/ac982d4c6d50418891805855f75e11f0)
+[Loom presentation video](https://www.loom.com/share/f95e056eefcc44c3844b57e6595baea4)
 
-[Live Demo Link](https://elsonotake.github.io/Osesp/)
+[Live Demo Link](https://hedevedup.github.io/MicroCapstone1/)
 
 
 ## Getting Started
@@ -40,18 +41,18 @@ Double click on the index.html to open the main page.
 
 ## Author
 
-👤 **Elson Otake**
+👤 ** Uzoma jesse **
 
-- GitHub: [@elsonotake](https://github.com/elsonotake)
-- Twitter: [@elsonotake](https://twitter.com/elsonotake)
-- LinkedIn: [Elson Otake](https://linkedin.com/in/elson-otake-0b5b9138)
+- GitHub: [@hedevedup](https://github.com/hedevedup)
+- Twitter: [@devtochi](https://twitter.com/devtochi)
+- LinkedIn: [uzoma jesse](https://linkedin.com/in/jesse uzoma tochukwu)
 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/ElsonOtake/Osesp/issues).
+Feel free to check the [issues page](https://github.com/hedevedup/MicroCapstone1/issues).
 
 
 ## Show your support

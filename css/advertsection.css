@@ -1,7 +1,6 @@
 
 .showcase {
   min-height: 66vh;
- 
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
@@ -45,7 +44,6 @@
   font-weight: 800;
   line-height: 1em;
   text-transform: uppercase;
-
 }
 
 .text h3 {
@@ -66,7 +64,6 @@
   background-color: #f7f7fe;
   margin: 15px 0 40px;
   padding-bottom: 10px;
- 
 }
 
 .text span {
@@ -75,7 +72,6 @@
   font: 560px 30px;
   color: #575757;
   letter-spacing: -2px;
-
 }
 
 .demo {

@@ -21,10 +21,10 @@ main section .container-fluid {
   background-repeat: no-repeat;
   height: 100%;
 }
+
 .logo img {
   width: 50px;
 }
-
 
 .hero-section .container-fluid {
   color: rgb(21, 4, 4);
@@ -149,8 +149,6 @@ main section .container-fluid {
   .partners-info .list-unstyled {
     margin: 0 100px;
   }
-
-
 }
 
 @media only screen and (min-width: 992px) {

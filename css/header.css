@@ -90,17 +90,6 @@ a {
   box-shadow: -5px -2px 14px 6px #ee523c;
 }
 
-.center-list a:hover,
-.top-navbar a:hover {
-  text-decoration: none;
-}
-
-.center-list a:hover span,
-.top-navbar a:hover span,
-.top-navbar a:hover i {
-  color: var(--primary-color);
-}
-
 .campaign-button:hover {
   background-color: var(--primary-color);
   border-color: var(--primary-color);
@@ -118,7 +107,6 @@ a {
   position: relative;
   width: 3rem;
   height: 2rem;
-  
   margin-left: 0.5rem;
   background: none;
   border: none;
@@ -175,7 +163,7 @@ a {
   background-position: 0% 100%;
 }
 
-.sideNav ul li a {
+.sideNav li a {
   display: block;
   color: rgb(31, 3, 3);
   padding-bottom: 10px;
@@ -206,8 +194,9 @@ a {
 .showOverlay {
   display: block;
 }
+
 .left-side img {
-width: 100px;
+  width: 100px;
 }
 
 @media (min-width: 768px) {
@@ -260,7 +249,6 @@ width: 100px;
   .main-button {
     border: 2px solid orangered;
     background-color: rgb(77, 61, 54);
-    
     height: 70px;
     color: aliceblue;
     position: relative;
@@ -280,7 +268,8 @@ width: 100px;
     display: none;
   }
 }
-  @media only screen and (max-width: 768px) {
+
+@media only screen and (max-width: 768px) {
   .border-shadow-header {
     box-shadow: none !important;
   }
