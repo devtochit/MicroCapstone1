@@ -7,30 +7,6 @@ const menuItems = document.querySelectorAll(".menuLink")
 
 
 
-menuItems.forEach(menuItem => {
-    menuItem.addEventListener("click", toggleHambuger)
-})
-
-ham.addEventListener('click', toggleHambuger)
-menuX.addEventListener('click', toggleHambuger)
-overlay.addEventListener('click', toggleHambuger)
-
-
-
-
-function toggleHambuger() {
-    overlay.classList.toggle('showOverlay')
-    sideNav.classList.toggle('showNav')
-}
-
-
-
-
-
-
-
-
-
 const speakersData = [
 
     {
@@ -92,16 +68,29 @@ const speakersData = [
         live_link: 'https://genius.com/artists/Thom-yorke'
     },
 
-
 ]
+
+menuItems.forEach(menuItem => {
+    menuItem.addEventListener("click", toggleHambuger)
+})
+
+ham.addEventListener('click', toggleHambuger)
+menuX.addEventListener('click', toggleHambuger)
+overlay.addEventListener('click', toggleHambuger)
+
+function toggleHambuger() {
+    overlay.classList.toggle('showOverlay')
+    sideNav.classList.toggle('showNav')
+}
+
+
+
 
 const dynamicdatas = document.querySelector('.first-articles-col')
 for (let a = 0; a < speakersData.length; a++) {
     const getHtmls = document.querySelector('.first-articles-col').innerHTML
     const id = speakersData[a].id
     dynamicdatas.innerHTML = `
-                                           
-                                               
                                                         <article class="col-lg">
                                                             <div class="featured-speaking-content ">
                                                                 <div class="first-articles-col row row-cols-lg-2">
@@ -123,6 +112,3 @@ for (let a = 0; a < speakersData.length; a++) {
                                                             
                                                             ${getHtmls}`
 }
-
-
-
