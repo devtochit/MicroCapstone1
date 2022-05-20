@@ -279,8 +279,15 @@ article .articles-content-info {
 @media only screen and (min-width: 768px) {
   .partners-info .list-unstyled {
     margin: 0 100px;
-  }
 
+    
+  }
+  .gray-square {
+    top: 1%;
+    left: 0;
+    width: 12%;
+    z-index: -1;
+  }
   .articles-content article {
     width: 48%;
     margin: 5px;

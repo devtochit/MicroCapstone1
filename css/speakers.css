@@ -11,12 +11,7 @@
   width: 50% !important;
 }
 
-.gray-square {
-  top: -10%;
-  left: 0;
-  width: 12%;
-  z-index: -1;
-}
+
 
 .featured-speaking-content a img:hover + .gray-square {
   width: 24%;
