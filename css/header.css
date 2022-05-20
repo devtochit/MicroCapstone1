@@ -112,11 +112,12 @@ a {
   border: none;
   cursor: pointer;
   color: rgb(26, 23, 23);
+  top: -2px;
 }
 
-.leftsided {
-  width: 10px;
-  display: contents;
+.opacited {
+  background-color: #e6e6e6;
+  height: 100%;
 }
 
 .leftsided img {
@@ -213,6 +214,10 @@ a {
 
 @media (min-width: 768px) {
   .ham {
+    display: none;
+  }
+
+  .opacited {
     display: none;
   }
 
