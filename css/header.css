@@ -105,13 +105,15 @@ a {
 
 .ham {
   position: relative;
-  width: 3rem;
+  width: 2rem;
   height: 2rem;
+  bottom: 4px;
   margin-left: 0.5rem;
   background: none;
   border: none;
   cursor: pointer;
   color: rgb(26, 23, 23);
+  background-color: #e5e5e9;
 }
 
 .menuX {
