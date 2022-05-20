@@ -2,9 +2,11 @@
 @import url('./header.css');
 @import url('./advertsection.css');
 @import url('./aboutprogram.css');
+@import url('/css/aboutpage.css');
 @import url('./speakerpage.css');
 @import url('./footer.css');
 @import url('./partners.css');
+@import url('./speakers.css');
 @import url('./scroll-header.css');
 
 * {

@@ -21,10 +21,10 @@ main section .container-fluid {
   background-repeat: no-repeat;
   height: 100%;
 }
-
-.hero-section {
-  background-image: url(/assets/img/hero-section2.png);
+.logo img {
+  width: 50px;
 }
+
 
 .hero-section .container-fluid {
   color: rgb(21, 4, 4);
@@ -33,7 +33,7 @@ main section .container-fluid {
 }
 
 .info-hero {
-  background-color: rgb(79 170 167);
+  background-color: rgb(91, 121, 120);
   border: 1px solid var(--third-color);
   padding: 20px;
   margin: 20px 0;
@@ -150,14 +150,7 @@ main section .container-fluid {
     margin: 0 100px;
   }
 
-  .background-imagee {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100%;
-    position: relative;
-    top: 106px;
-  }
+
 }
 
 @media only screen and (min-width: 992px) {

@@ -1,7 +1,7 @@
 
 .showcase {
-  min-height: 70vh;
-  display: flex;
+  min-height: 66vh;
+ 
   justify-content: space-between;
   align-items: center;
   transition: 0.5s;
@@ -16,7 +16,7 @@
   position: absolute;
   top: 30px;
   left: 0;
-  width: 128%;
+  width: 100%;
   height: 71%;
   object-fit: cover;
   opacity: 0.1;
@@ -26,7 +26,7 @@
   position: absolute;
   top: 75px;
   left: 0;
-  width: 128%;
+  width: 100%;
   height: 64%;
   background: #777871;
   mix-blend-mode: overlay;
@@ -45,6 +45,7 @@
   font-weight: 800;
   line-height: 1em;
   text-transform: uppercase;
+
 }
 
 .text h3 {
@@ -60,12 +61,12 @@
 .text p {
   text-align: justify;
   height: 90px;
-  width: 480px;
+  width: 334px;
   border: 4px solid #fff;
   background-color: #f7f7fe;
   margin: 15px 0 40px;
-  padding: 9px 20px 0;
-  font-size: 1.125em;
+  padding-bottom: 10px;
+ 
 }
 
 .text span {
@@ -74,6 +75,7 @@
   font: 560px 30px;
   color: #575757;
   letter-spacing: -2px;
+
 }
 
 .demo {
@@ -122,7 +124,7 @@
     top: 122px;
     left: 0;
     width: 100%;
-    height: 59%;
+    height: 110%;
     object-fit: cover;
     opacity: 0.1;
   }
@@ -132,7 +134,7 @@
     top: 122px;
     left: 0;
     width: 100%;
-    height: 70%;
+    height: 110%;
     background: #2e3538;
     mix-blend-mode: overlay;
   }
@@ -140,7 +142,7 @@
   .text {
     position: relative;
     z-index: 10;
-    top: 80px;
+    top: 10px;
     right: 0;
   }
 

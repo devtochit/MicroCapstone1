@@ -1,50 +1,72 @@
-<!-- about  Microverse first project -->
+# OSESP
 
- # Microverse First project  
-<img src="assert/desktop-version-screenshot.png">
+> The Osesp Itinerante tour annually runs through cities in the state of São Paulo, offering the population a series of free activities that include open-air symphony concerts, workshops with Osesp musicians, music appreciation courses and chamber and choir concerts.
+> This project was built using a Creative Commons conference as a base design. Two pages similar to the original were created. Pages have been adapted to suit desktop and mobile viewing. A menu for the mobile version was created and some of the content was created using Javascript.
 
-> Description of  the project.
-
- This is a portfolio website 
 
 ## Built With
 
-- Html
-- Css
-- Github flow 
+- HTML
+- CSS
+- Javascript
 
-## Live Demo 
 
-[Live Demo Link](https://hedevedup.github.io/MicroversePortfolioProject/)
+## Live Demo
+
+[Loom presentation video](https://www.loom.com/share/ac982d4c6d50418891805855f75e11f0)
+
+[Live Demo Link](https://elsonotake.github.io/Osesp/)
 
 
 ## Getting Started
 
-**Just Clone The Repo to get a Better Look At the Code**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
-**HTML**<b>
-**CSS**
-**Git And Github**
+
+A web browser
+
 ### Setup
- 
 
-### Install
+Copy the following files to your computer:
 
-### Usage
+- index.html
+- about.html
+- styles.css
+- script.js
 
-### Run tests
-
-### Deployment
+Double click on the index.html to open the main page.
 
 
+## Author
 
-## Authors
+👤 **Elson Otake**
 
-👤 **jesse uzoma**
+- GitHub: [@elsonotake](https://github.com/elsonotake)
+- Twitter: [@elsonotake](https://twitter.com/elsonotake)
+- LinkedIn: [Elson Otake](https://linkedin.com/in/elson-otake-0b5b9138)
 
-- GitHub: [@officialesse](https://github.com/officailesse/MicroverseProject-)
+
+## 🤝 Contributing
+
+Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/ElsonOtake/Osesp/issues).
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+
+## Acknowledgments
+
+- Microverse
+- W3Schools
+- Stack Overflow
+
+
+## 📝 License
+
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+This design is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.

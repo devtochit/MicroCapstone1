@@ -1,0 +1,65 @@
+.featured-speaking-content article {
+    margin: 30px 0;
+    padding: 10px;
+  }
+  
+  .featured-speaking-content a img {
+    transition: width 0.6s ease;
+  }
+  
+  .featured-speaking-content a img:hover {
+    width: 50% !important;
+  }
+  
+  .gray-square {
+    top: -10%;
+    left: 0;
+    width: 12%;
+    z-index: -1;
+  }
+  
+  .featured-speaking-content a img:hover + .gray-square {
+    width: 24%;
+  }
+  
+  .featured-speaking-content a {
+    display: flex;
+    align-items: flex-start;
+  }
+  
+  .featured-speaking-content hr {
+    margin-right: 90%;
+  }
+  
+  .featured-speaking-content p {
+    font-size: 14px;
+  }
+  
+  .more-button {
+    color: unset;
+    border-color: #e7e7e7;
+  }
+  
+  .more-button:hover {
+    color: unset;
+    background-color: unset;
+    border-color: var(--primary-color);
+  }
+  
+  .more-button:focus,
+  .more-button:active {
+    outline: none !important;
+    color: #fff;
+    background-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 0.2rem #ee523c5c !important;
+    border-color: var(--primary-color) !important;
+  }
+  
+  .more-button:focus i,
+  .more-button:active i {
+    color: #fff;
+  }
+  
+  .featured-speakers button {
+    padding: 15px 0;
+  }

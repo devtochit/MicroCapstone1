@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 
-
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
 
@@ -22,23 +21,66 @@
 
 
     <header>
-        <div class="topnav">
-            <nav>
-                <li><a href=""><i class="fa-brands fa-instagram-square"></i></a></li>
-                <li><a href=""> <i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href=""><i class="fa-brands fa-facebook"></i></a></li>
-            </nav>
-        </div>
-        <div class="mainnav">
-            <h1 class="main-h1"> The chance</h1>
-            <nav>
-                <li><a href="/about.html"> About</a> </li>
-                <li> Contact</li>
-                <li> Sponsor</li>
-                <li>News</li>
-                <button class="main-button"> Buy Ticket now</button>
-            </nav>
-        </div>
+        <nav>
+            <section class="contenedor border-shadow-header">
+                <h2 class="hidden-section-title">.</h2>
+                <div class="top-navbar d-none d-md-block ">
+                    <div class="container-fluid">
+                        <ul class="list-unstyled flex-adjust-center">
+                            <li>
+                                <a href="#"><i class="fab fa-facebook-f mr-3"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fab fa-twitter mr-3"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Logout</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Mypage</span></a>
+                            </li>
+                            <li>
+                                <a href="#"><span>Korean</span></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="bottom-navbar ">
+                    <div class="container-fluid flex-adjust-center">
+                        <div class="left-side">
+
+                            <a href="/">
+                                <img src="/assets/img/logo-400.jpg" alt="logo-header" class=" d-none d-md-block">
+                            </a>
+                        </div>
+                        <div class="center-list d-none d-md-block">
+                            <ul class="list-unstyled flex-adjust-center">
+                                <li>
+                                    <a href="/about.html">
+                                        <span class="text-secondary-color font-weight-bold">About</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/src/pages/ticketes/ticketes-skeleton.html">
+                                        <span class="text-secondary-color font-weight-bold">Tickets</span>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="/src/pages/schedule/schedule-skeleton.html">
+                                        <span class="text-secondary-color font-weight-bold">Schedule</span>
+                                    </a>
+                                </li>
+                            </ul>
+
+                        </div>
+                        <button type="button" class=" campaign-button d-none d-md-block">
+                            Plan</button>
+                    </div>
+                </div>
+            </section>
+        </nav>
+        <div class="behind-navbar"></div>
 
 
         <button type="button" class="ham">
@@ -93,19 +135,106 @@
         </div>
 
     </section>
-    <div class="section2">
-        <h1> About Program</h1>
-        <div class="guide-bar"></div>
-    </div>
+    <section class="main-program">
+        <div class="section-content container-fluid">
+            <div class="section-title">
+                <h4>Activities</h4>
+                <hr>
+            </div>
+            <div class="articles-content">
+                <article>
+                    <div class="articles-content-info container-fluid">
+                        <div class="left-content mr-3 mr-md-0 d-flex align-items-center">
+                            <i class="fab fa-accusoft mr-3 mr-md-0 fa-2x"></i>
+                            <h5 class="text-primary-color font-weight-bolder">Activities Tent</h5>
+                        </div>
+                        <div class="right-content">Games, giveaways and good times going down in Camping. Check back in
+                            late March for all the glorious details.</div>
+                    </div>
+                </article>
+                <article>
+                    <div class="articles-content-info container-fluid">
+                        <div class="left-content mr-3  mr-md-0 d-flex align-items-center">
+                            <i class="fas fa-apple-alt mr-3 mr-md-0 fa-2x"></i>
+                            <h5 class="text-primary-color font-weight-bolder">Camping Eats + Drinks</h5>
+                        </div>
+                        <div class="right-content">Food Trucks & vendors of nearly every type (vegetarian/vegan items)
+                            will be on hand to feed all your on site camping hunger needs. Head to the hill in Lot 8 to
+                            get your grub on! PLUS, Beer to go, Bloody Mary’s + more!</div>
+                    </div>
+                </article>
+                <article>
+                    <div class="articles-content-info container-fluid">
+                        <div class="left-content mr-3 mr-md-0 d-flex align-items-center">
+                            <i class="fas fa-chalkboard-teacher mr-3 mr-md-0 fa-2x"></i>
+                            <h5 class="text-primary-color font-weight-bolder">Chance art studio</h5>
+                        </div>
+                        <div class="right-content">Enter this D.I.Y. domain and let your creativity flow. Check back in
+                            late March for thorough details. </div>
+                    </div>
+                </article>
+                <article>
+                    <div class="articles-content-info container-fluid">
+                        <div class="left-content mr-3 mr-md-0 d-flex align-items-center">
+                            <i class="fab fa-android mr-3 mr-md-0 fa-2x"></i>
+                            <h5 class="text-primary-color font-weight-bolder">The Dome</h5>
+                        </div>
+                        <div class="right-content">Get your late night groove on in The Dome Dance party nightly. The
+                            music rages on, yet silently, starting at 1am. Stop by early on Thur only for the Vintage
+                            Merch Sale to get your oldchella on! Check back in late March for more details.</div>
+                    </div>
+                </article>
+                <article>
+                    <div class="articles-content-info container-fluid">
+                        <div class="left-content mr-3 mr-md-0 d-flex align-items-center">
+                            <i class="fas fa-atom mr-3 mr-md-0 fa-2x"></i>
+                            <h5 class="text-primary-color font-weight-bolder">Ferris wheel </h5>
+                        </div>
+                        <div class="right-content">Catch all the feels at the top of the Ferris Wheel while taking in
+                            the epic desert views of the entire Coachella Valley.</div>
+                    </div>
+                </article>
+            </div>
+            <div class="center-links"><button class="bg-primary-color join-boton d-lg-none">
+                    JOIN US Today
+                </button>
+                <a href="/src/pages/schedule/schedule-skeleton.html" class="whole-program-link d-none d-lg-block"><span
+                        class="text-third-color">SEE WHOLE ACTIVITIES</span></a>
+            </div>
+        </div>
+    </section>
 
-    <div class="section3">
-        <h2 class="sectionh1"> main speaker</h2>
-        <div class="guided-bar"></div>
-    </div>
+
+
+    <section class="featured-speakers">
+        <div class="section-content container-fluid">
+            <div class="section-title">
+                <h4>Lineup</h4>
+                <hr>
+                <div class="featured-speaking-content ">
+                    <div class="first-articles-col row row-cols-lg-2">
+
+                    </div>
+                </div>
+                <button type="button" class="btn btn-outline-primary w-100 d-lg-none more-button" onclick="viewMore()">
+                    <span id="name-button" class="font-weight-bold">MORE</span>
+                    <i class="fas fa-angle-down ml-2 text-primary-color" id="icon-button"></i>
+                </button>
+            </div>
+    </section>
+
+
+
+
+
+
+
+
+
 
     <div class="section4">
     </div>
-    <section class="partners d-lg-none">
+    <section class="partners ">
         <div class="container-fluid">
             <div class="section-title">
                 <h4>Partner</h4>
@@ -139,7 +268,7 @@
 
         <div class="container-fluid">
             <div class="logo mr-5 mr-sm-3">
-                <img src="/assets/img/loachella-logo-third.svg" alt="logo-footer">
+                <img src="/assets/img/logo-400.jpg" alt="logo-footer">
             </div>
             <div class="info-footer">
                 <div class="titulo d-lg-flex">
