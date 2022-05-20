@@ -45,7 +45,7 @@ Double click on the index.html to open the main page.
 
 - GitHub: [@hedevedup](https://github.com/hedevedup)
 - Twitter: [@devtochi](https://twitter.com/devtochi)
-- LinkedIn: [uzoma jesse](https://linkedin.com/in/jesse uzoma tochukwu)
+- LinkedIn: [@uzoma jesse](https://linkedin.com/jesseuzomatochukwu)
 
 
 ## 🤝 Contributing

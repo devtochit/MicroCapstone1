@@ -47,7 +47,7 @@ const speakersData = [
         h5: 'Lana del Rey',
         h6: 'Manhattan, New York, United States',
         description: 'Elizabeth Woolridge Grant, known professionally as Lana Del Rey, is an American singer,songwriter, musician and record producer',
-        featured_image1: "/assets/img/lineup/Lana.jpg",
+        featured_image1: "/assets/img/lineup/calvin.jpg",
         featured_image2: "/assets//img/gray-squares.png",
         live_link: 'https://genius.com/artists/Lana-del-rey'
     },
