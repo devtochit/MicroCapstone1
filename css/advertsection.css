@@ -15,7 +15,7 @@
 
 .showcase video {
   position: absolute;
-  top: 30px;
+  top: 51px;
   left: 0;
   width: 103%;
   height: 71%;
@@ -36,8 +36,8 @@
 .text {
   position: relative;
   z-index: 10;
-  right: 0;
-  top: 18px;
+  left: 18px;
+  top: 9px;
 }
 
 .text h2 {
@@ -61,11 +61,10 @@
 .text p {
   text-align: justify;
   height: 90px;
-  width: 334px;
+  width: 350px;
   border: 4px solid #fff;
   background-color: #f7f7fe;
   margin: 15px 0 40px;
-  padding-bottom: 10px;
 }
 
 .text span {
@@ -74,6 +73,7 @@
   font: 560px 30px;
   color: #575757;
   letter-spacing: -2px;
+  padding-top: 10px;
 }
 
 .demo {

@@ -105,15 +105,25 @@ a {
 
 .ham {
   position: relative;
-  width: 2rem;
+  width: 3rem;
   height: 2rem;
-  bottom: 4px;
   margin-left: 0.5rem;
   background: none;
   border: none;
   cursor: pointer;
   color: rgb(26, 23, 23);
-  background-color: #e5e5e9;
+}
+
+.leftsided {
+  width: 10px;
+  display: contents;
+}
+
+.leftsided img {
+  width: 80px;
+  height: 50px;
+  padding: 1px;
+  margin-left: 146px;
 }
 
 .menuX {
@@ -165,7 +175,7 @@ a {
   background-position: 0% 100%;
 }
 
-.sideNav li a {
+.sideNav ul li a {
   display: block;
   color: rgb(31, 3, 3);
   padding-bottom: 10px;
