@@ -5,6 +5,8 @@
   align-items: center;
   transition: 0.5s;
   z-index: 2;
+  display: grid;
+  place-items: center;
 }
 
 .showcase.active {
