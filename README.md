@@ -1,73 +1,73 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# The Chance
 
-# Microver Capstone 1 
-
-> Description the project.
+> The Chance concert  tour annually runs through cities in the state of califonia  offering the population a series of free activities that include open-air symphony concerts, workshops withmusicians, music appreciation courses and chamber and choir concerts.
+> This project was built using a Creative Commons conference as a base design. Two pages similar to the original were created. Pages have been adapted to suit desktop and mobile viewing. A menu for the mobile version was created and some of the content was created using Javascript.
 
 
 ## Built With
 
-- HTML,CSS
-- JAVASCRIPT
-- GIT
+- HTML
+- CSS
+- BOOTSTRAP
+- Javascript
 
-## Live Demo 
 
-[Live Demo Link](https://livedemo.com)
+## Live Demo
+
+[Loom presentation video](https://www.loom.com/share/f95e056eefcc44c3844b57e6595baea4)
+
+[Live Demo Link](https://hedevedup.github.io/MicroCapstone1/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
-
-
-To get a local copy up and running follow these simple example steps.
+To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
+A web browser
+
 ### Setup
 
-### Install
+Copy the following files to your computer:
 
-### Usage
+- index.html
+- about.html
+- styles.css
+- script.js
 
-### Run tests
-
-### Deployment
+Double click on the index.html to open the main page.
 
 
+## Author
 
-## Authors
+👤 ** Uzoma jesse **
 
-👤 **Author1**
+- GitHub: [@hedevedup](https://github.com/hedevedup)
+- Twitter: [@devtochi](https://twitter.com/devtochi)
+- LinkedIn: [@uzoma jesse](https://linkedin.com/jesseuzomatochukwu)
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
-
-👤 **Author2**
-
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/hedevedup/MicroCapstone1/issues).
+
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
+
 ## Acknowledgments
 
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+- Microverse
+- W3Schools
+- Stack Overflow
+
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+Original design idea by [Cindy Shin in Behance](https://www.behance.net/adagio07).
+This design is [Creative Commons](https://creativecommons.org/licenses/by-nc/4.0/) licensed.
