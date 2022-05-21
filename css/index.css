@@ -8,7 +8,7 @@
 @import url('./speakers.css');
 @import url('./scroll-header.css');
 @import url('/css/app.css');
-
+@import url(../);
 * {
   margin: 0;
   padding: 0;
